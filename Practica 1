@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 1 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Automatización Industrial</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Repaso de electricidad</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/celso.jpg" alt="..." />
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/juanca.jpg" alt="..." />
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/jassam.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Celso Villavicencio Vázquez<br> Juan Carlos Taboada Planas<br> Jassam Jerson Rangel Ramirez </div>
+                                <div class="text-muted">Ingenieria Automotriz</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: 08 15, 2023</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Repaso</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Salud</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Ley de ohm</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/electricidad.jpg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta practica analizaremos algunos conceptos en la electricidad: <br><br>
+                            Los peligros que existen en la electricidad:<br><br>
+
+                            El peligro de un choque eléctrico no se debe al alto voltaje, lo que puede llegar a matar es a corriente.<br><br>
+                            
+                            El choque eléctrico es resultado del contacto entre la parte viva (línea, fase, positivo) y la tierra (negativo).<br><br>
+                            
+                            Ley de Ohm:<br><br>
+                            
+                            La corriente producida en cierto conductor es directamente proporcional a la diferencia de potencial entre sus extremos.<br><br>
+                            
+                            Está ley se representa mediante la ecuación: 𝐼 = 𝑉/ R<br>
+                            
+                            La unidad de resistencia es el Ohm (Ω). La unidad de voltaje es el Volt (V). La unidad de corriente es el Ampere (A).<br><br>
+                            
+                            Multímetro:<br><br>
+                            
+                            • Un multímetro es un instrumento de laboratorio que nos ayuda a efectuar mediciones eléctricas. <br><br>• Los multímetros pueden ser analógicos o digitales.</p>
+                        
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">En esta practica el principal objetivo es que conozcamos los peligros que conlleva trabajar con la electricidad y sus diferentes usos y aplicaciones, primero viendolo de un enfoque teorico para que no tengamos contacto fisico y que nos pueda generar un daño en la salud y para que asi posteriormente aplicarlo en lo práctico.</p>
+
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/mat1.jpg" alt="..." /></figure>
+                        <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/mat2.jpg" alt="..." /></figure>
+                        <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/mat3.jpg" alt="..." /></figure>
+                        <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/mat4.jpg" alt="..." /></figure>
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">En esta práctica conocimos los diferentes usos de la electricidad y sus peligros a la salud, así como también conoicimos los diferentes componentes que lo conllevan. Esto debido a que se necesita tener conocimientos básicos para la manipulación de la electricidad ya que puede dañar nuestra salud. También recordamos la ley de Ohm para los calculos que en un futuro se calcularán.</p>
+                        
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4">Hicimos varias simulaciones en el programa.</p>
+                            <p class="fs-6 mb-4">Primer ejercicio.-</p>
+                            <p class="fs-6 mb-4">Hicimos que con un boton prender una lámpara.-</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/1.mp4" type="video/mp4">
+                            </video></p></figure>
+                            
+
+                            <p class="fs-6 mb-4">Segundo ejercicio.</p>
+                            <p class="fs-6 mb-4">Prendimos un foco.-</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/2.mp4" type="video/mp4">
+                            </video></p></figure>
+                           
+
+                            <p class="fs-6 mb-4">Tercer ejercicio.</p>
+                            <p class="fs-6 mb-4">Hicimos un switch de escalera.-</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/3.mp4" type="video/mp4">
+                            </video></p></figure>
+                            
+
+                            <p class="fs-6 mb-4">Cuarto ejercicio.</p>
+                            <p class="fs-6 mb-4">Hicimos un circuito en paralelo prendieran 2 focos con 2 interruptores.-</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/4.mp4" type="video/mp4">
+                            </video></p></figure>
+                            
+
+                            <p class="fs-6 mb-4">Quinto ejercicio.</p>
+                            <p class="fs-6 mb-4">Hicimos un circuito con 2 interruptores en serie para prender 1 foco.-</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/5.mp4" type="video/mp4">
+                            </video></p></figure>
+                           
+
+                            <p class="fs-6 mb-4">Sexto ejercicio.</p>
+                            <p class="fs-6 mb-4">Hicimos un circuito con 2 interruptores en paralelo para prender 1 foco.-</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/6.mp4" type="video/mp4">
+                            </video></p></figure>
+                            
+
+                            <p class="fs-6 mb-4">Séptimo ejercicio.</p>
+                            <p class="fs-6 mb-4">Hicimos un circuito con 1 interruptor que prende 1 foco.-</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/7.mp4" type="video/mp4">
+                            </video></p></figure>
+                            
+
+
+                            
+                    
+                        
+                            <p id="resultados">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Resultados</h1>
+                            <p class="fs-6 mb-4">Primer ejercicio.-</p>
+                            <p class="fs-6 mb-4">Hicimos un switch de escalera.-</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/a.mp4" type="video/mp4">
+                            </video></p></figure>
+                            
+
+                            <p class="fs-6 mb-4">Segundo ejercicio.</p>
+                            <p class="fs-6 mb-4">Hicimos un circuito con 2 interruptores en serie para prender 1 foco.-</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/b.mp4" type="video/mp4">
+                            </video></p></figure>
+                           
+
+                            <p class="fs-6 mb-4">Tercer ejercicio.</p>
+                            <p class="fs-6 mb-4">Hicimos un circuito en paralelo prendieran 2 focos con 2 interruptores.</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/c.mp4" type="video/mp4">
+                            </video></p></figure>
+                            
+
+                            <p class="fs-6 mb-4">Cuarto ejercicio.</p>
+                            <p class="fs-6 mb-4">H>Hicimos un circuito con 2 interruptores en serie para prender 1 foco.-</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/d.mp4" type="video/mp4">
+                            </video></p></figure>
+                            
+
+                            <p class="fs-6 mb-4">Quinto ejercicio.</p>
+                            <p class="fs-6 mb-4">Hicimos un circuito con 2 focos que prendieran con un interruptor.-</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/e.mp4" type="video/mp4">
+                            </video></p></figure>
+                           
+                            
+                            <p class="fs-6 mb-4">Sexto ejercicio.</p>
+                            <p class="fs-6 mb-4">Hicimos un circuito con 1 interruptor  para prender 1 foco.-</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/h.mp4" type="video/mp4">
+                            </video></p></figure>
+                            
+
+                            <p class="fs-6 mb-4">Septimo ejercicio.</p>
+                            <p class="fs-6 mb-4">Hicimos un circuito que prende 1 foco.-</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/i.mp4" type="video/mp4">
+                            </video></p></figure>
+                            
+
+
+
+                        
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">En esta práctica pudimos resolver varios problemas que se podrian presentar día a día, ya que usamos los principios básicos de la electricidad. En esta práctica también desarrollamos las capacidades de diseño de los circuitos para poder conocer sus principios.  </p>
+                       
+
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Microchip AVR® microcontroller primer: programming and interfacing, third edition (synthesis lectures on digital circuits and systems), BARRETT, Steven F. Pack Daniel J., Editorial Morgan & Claypool, 2019.</p>
+                        <p class="fs-6 mb-4">K. He, X. Zhang, S. Ren and J. Sun, "Deep Residual Learning for Image Recognition," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 770-778, doi: 10.1109/CVPR.2016.90.</p>
+                        <p class="fs-6 mb-4">J. D. Hunter, "Matplotlib: A 2D Graphics Environment," in Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, May-June 2007, doi: 10.1109/MCSE.2007.55.</p>
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Descargar documento PDF: <a href="files/Documento.pdf">documento.pdf</a> </p>
+                        <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/Ejemplo_arduino_bluetooth.ino">codigo.ino</a> </p>
+                        <p class="fs-6 mb-4">Descargar Archivo 3d .STL: <a href="files/Pieza_3D.STL">pieza.stl</a> </p>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
